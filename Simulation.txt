@@ -1,0 +1,2 @@
+iverilog -o car_parking_sim car_parking_controller.v car_parking_controller_tb.v
+vvp car_parking_sim
